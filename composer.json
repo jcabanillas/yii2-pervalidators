@@ -1,0 +1,29 @@
+{
+    "name": "jcabanillas/yii2-pervalidators",
+    "description": "Two data validators for Peru-specific data: RUC.",
+    "homepage": "https://github.com/jcabanillas/yii2-pervalidators",
+    "keywords": ["yii2", "validators", "peru", "ruc"],
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "type": "yii-extension",
+    "authors": [
+        {
+            "name": "Javier Cabanillas",
+            "email": "jcabanillas@bitevolution.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*"
+    },
+    "support": {
+        "issues": "https://github.com/jcabanillas/yii2-pervalidators/issues",
+        "forum": "http://www.yiiframework.com/forum/",
+        "source": "https://github.com/jcabanillas/yii2-pervalidators"
+    },
+    "autoload": {
+        "psr-4": {
+            "jcabanillas\\pervalidators\\": ""
+        }
+    }
+}
